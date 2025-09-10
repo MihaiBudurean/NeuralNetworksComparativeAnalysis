@@ -10,8 +10,8 @@ The goal is to evaluate two different deep neural architectures in terms of accu
 
 ### Datasets
 
-* **Sign‑MNIST** – Images of American Sign Language hand gestures (letters A–Y except J).
-* **MNIST** – Handwritten digit dataset used for transfer learning.
+* **Sign‑MNIST**
+* **MNIST**
 
 ### Architectures
 
@@ -26,32 +26,13 @@ The goal is to evaluate two different deep neural architectures in terms of accu
 
 ---
 
-## 🛠️ Requirements
-
-* Python ≥ 3.9
-* TensorFlow / Keras
-* NumPy
-* Matplotlib
-* scikit‑learn
-* Jupyter
-
-Install with:
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## 🚀 Usage
+## 🛠 Requirements
 
 Install the dependencies to run the project:
 
 ```bash
 pip install -r requirements.txt
 ```
-
-Then run `case_study_1.ipynb` in Jupyter or Google Colab.
 
 ---
 
@@ -67,12 +48,4 @@ Then run `case_study_1.ipynb` in Jupyter or Google Colab.
   * GoogLeNet achieved ≈ **92.64% accuracy**.
 
 **Key Insight:** NiN excels on the original dataset with higher accuracy, but GoogLeNet generalizes better in transfer learning with fewer parameters.
-
----
-
-## 📂 Files
-
-* `NeuralNetworksComparativeAnalysis.ipynb` – Main notebook with training and evaluation
-* `requirements.txt` – Dependencies
-* `README.md` – This file
 
