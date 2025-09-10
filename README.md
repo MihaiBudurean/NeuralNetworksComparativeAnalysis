@@ -45,11 +45,9 @@ pip install -r requirements.txt
 
 ## 🚀 Usage
 
-Clone the repository and open the notebook:
+Install the dependencies to run the project:
 
 ```bash
-git clone https://github.com/your-username/CaseStudy_NiN_vs_GoogLeNet.git
-cd CaseStudy_NiN_vs_GoogLeNet
 pip install -r requirements.txt
 ```
 
@@ -74,8 +72,7 @@ Then run `case_study_1.ipynb` in Jupyter or Google Colab.
 
 ## 📂 Files
 
-* `case_study_1.ipynb` – Main notebook with training and evaluation
-* `case_study_1.pdf` – Report summarizing methodology and results
+* `NeuralNetworksComparativeAnalysis.ipynb` – Main notebook with training and evaluation
 * `requirements.txt` – Dependencies
 * `README.md` – This file
 
